@@ -1,6 +1,6 @@
 package Enter;
 
-import SimpleFactory.*;
+import simpleFactory.*;
 
 public class Enter1 {
 	public static void main(String args[]){
