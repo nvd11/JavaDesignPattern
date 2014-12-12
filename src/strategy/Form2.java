@@ -1,4 +1,4 @@
-package simpleFactory;
+package strategy;
 
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
@@ -10,12 +10,12 @@ import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.widgets.Label;
 import org.eclipse.wb.swt.SWTResourceManager;
 
-import simpleFactory.bizobj.Operation1;
-import simpleFactory.bizobj.Operation;
-import simpleFactory.bizobj.OperationFactory;
+import strategy.bizobj.Operation;
+import strategy.bizobj.OperationDel;
+import strategy.bizobj.OperationContext;
 
 
-public class Form1 {
+public class Form2 {
 
 	protected Shell shlCacul;
 	private Text tb_i;
@@ -29,7 +29,7 @@ public class Form1 {
 	 */
 	public static void newInstance() {
 		try {
-			Form1 window = new Form1();
+			Form2 window = new Form2();
 			window.open();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -100,7 +100,7 @@ public class Form1 {
 			int i = Integer.parseInt(tb_i.getText());
 			int j = Integer.parseInt(tb_j.getText());
 			
-			lblResult.setText("" + OperationFactory.getOperationObj(i,j,"+").getResult());
+			System.out.println("123333");
 		}
 	}
 	
@@ -108,7 +108,10 @@ public class Form1 {
 			int i = Integer.parseInt(tb_i.getText());
 			int j = Integer.parseInt(tb_j.getText());
 			
-			Operation oper = OperationFactory.getOperationObj(i,j,"-");
-			lblResult.setText("" + oper.getResult());
+			Operation oper = new OperationDel();
+			OperationContext context = new OperationContext(oper);
+			
+			
+			lblResult.setText("" + context.compute(i,j));
 	}
 }
