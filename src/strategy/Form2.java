@@ -108,10 +108,7 @@ public class Form2 {
 			int i = Integer.parseInt(tb_i.getText());
 			int j = Integer.parseInt(tb_j.getText());
 			
-			Operation oper = new OperationDel();
-			OperationContext context = new OperationContext(oper);
-			
-			
+			OperationContext context = new OperationContext("-");
 			lblResult.setText("" + context.compute(i,j));
 	}
 }
