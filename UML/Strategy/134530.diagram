@@ -12,9 +12,9 @@ classcanvas 128642 class_ref 134786 // OperationAdd
   draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
   xyz 359 171 2006
 end
-classcanvas 128898 class_ref 134914 // OperatioinFactory
+classcanvas 128898 class_ref 134914 // OperatioinContext
   draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition default show_members_visibility default show_members_stereotype default show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
-  xyz 508 64 2000
+  xyz 510 34 2000
 end
 relationcanvas 128258 relation_ref 134530 // <generalisation>
   from ref 128130 z 2001 to ref 128002
@@ -26,19 +26,8 @@ relationcanvas 128770 relation_ref 134658 // <generalisation>
   no_role_a no_role_b
   no_multiplicity_a no_multiplicity_b
 end
-relationcanvas 129026 relation_ref 134786 // <dependency>
-  from ref 128898 z 2007 to point 599 313
-  line 129282 z 2007 to point 408 310
-  line 129410 z 2007 to ref 128642
-  no_role_a no_role_b
-  no_multiplicity_a no_multiplicity_b
-end
-relationcanvas 129154 relation_ref 134914 // <dependency>
-  from ref 128898 z 2001 to point 555 114
-  line 130434 z 2001 to point 553 316
-  line 129666 z 2001 to point 335 314
-  line 129538 z 2001 to point 237 315
-  line 129794 z 2001 to ref 128130
+relationcanvas 130690 relation_ref 135042 // Allocation
+  from ref 128898 z 2001 label "Allocation" italic xyz 406 43 3000 to ref 128002
   no_role_a no_role_b
   no_multiplicity_a no_multiplicity_b
 end

@@ -53,7 +53,7 @@ format 74
     package_name_in_tab default show_context default show_opaque_action_definition default auto_label_position default write_flow_label_horizontally default draw_all_relations default shadow default
     show_infonote default drawing_language default show_stereotype_properties default
     classdiagram 134530 "01"
-      draw_all_relations default hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition yes show_members_visibility default show_members_stereotype yes show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
+      draw_all_relations no hide_attributes default hide_operations default hide_getset_operations default show_members_full_definition yes show_members_visibility default show_members_stereotype yes show_members_context default show_members_multiplicity default show_members_initialization default show_attribute_modifiers default member_max_width 0 show_parameter_dir default show_parameter_name default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default show_relation_modifiers default show_relation_visibility default show_infonote default shadow default show_stereotype_properties default
       size A4
     end
 
@@ -145,7 +145,7 @@ ${members}}
       end
     end
 
-    class 134914 "OperatioinFactory"
+    class 134914 "OperatioinContext"
       visibility package 
       cpp_decl ""
       java_decl "${comment}${@}${visibility}${final}${abstract}class ${name}${extends}${implements} {
@@ -156,8 +156,8 @@ ${members}}
       idl_decl ""
       explicit_switch_type ""
       
-      operation 134914 "CreateOperation"
-	class_operation public return_type class_ref 134530 // Operation
+      operation 134914 "compute"
+	class_operation public explicit_return_type "int"
 	nparams 0
 	
 	
@@ -178,6 +178,15 @@ ${members}}
 	  a default
 	    classrelation_ref 134914 // <dependency>
 	  b parent class_ref 134658 // OperatioinDel
+      end
+
+      classrelation 135042 // (Allocation)
+	relation 135042 ---> name "Allocation"
+	  a role_name "" private
+	    java "  ${comment}${@}${visibility}${static}${final}${transient}${volatile}${type} ${name}${value};
+"
+	    classrelation_ref 135042 // (Allocation)
+	  b parent class_ref 134530 // Operation
       end
     end
   end
