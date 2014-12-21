@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassDiagram>
+    <CommunicationClass name="factory.simple.CellPhone" x="380" y="212"/>
+    <CommunicationClass name="factory.simple.BlackBerry" x="283" y="338">
+        <Extension destinationClassName="factory.simple.CellPhone"/>
+    </CommunicationClass>
+</ClassDiagram>

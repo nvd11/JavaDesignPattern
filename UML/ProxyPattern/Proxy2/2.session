@@ -1,0 +1,14 @@
+window_sizes 1440 874 337 1097 680 120
+diagrams
+  active  classdiagram_ref 128002 // 01
+    877 544 100 4 0 0
+end
+show_stereotypes
+selected attribute_ref 128130 // f
+open
+  class_ref 128002 // Hitable
+  class_ref 128130 // Fox
+  class_ref 128258 // Dog
+  class_ref 128386 // ProxyBear
+end
+end
