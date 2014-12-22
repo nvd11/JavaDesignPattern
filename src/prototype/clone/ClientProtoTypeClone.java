@@ -1,5 +1,6 @@
 package prototype.clone;
 
+
 public class ClientProtoTypeClone {
 	public static void f(){
 		Prod p1 = new Prod();

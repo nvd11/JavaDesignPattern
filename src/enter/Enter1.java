@@ -10,6 +10,8 @@ import factory.simple.FactoryClient11;
 import prototype.withoutclone.*;
 import prototype.clone.*;
 import prototype.*;
+import templateMethod.ClientTemplateMethod;
+import lawOfDemeter.ClientDemeter;
 
 public class Enter1 {
 	public static void main(String args[]){
@@ -19,8 +21,10 @@ public class Enter1 {
 		//HuntClient.f();
 		//ProxyClient.f();
 		//FactoryClient11.f();
-		ClientWithOutClone.f();
+		//ClientWithOutClone.f();
 		//ClientProtoTypeClone.f();
-		ClientProtoType.f();
+		//ClientProtoType.f();
+		//ClientTemplateMethod.f();
+		ClientDemeter.f();
 	}
 }
