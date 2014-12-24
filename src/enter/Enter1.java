@@ -12,6 +12,8 @@ import prototype.clone.*;
 import prototype.*;
 import templateMethod.ClientTemplateMethod;
 import lawOfDemeter.ClientDemeter;
+import builder.templateMethod.*;
+import builder.*;
 
 public class Enter1 {
 	public static void main(String args[]){
@@ -25,6 +27,8 @@ public class Enter1 {
 		//ClientProtoTypeClone.f();
 		//ClientProtoType.f();
 		//ClientTemplateMethod.f();
-		ClientDemeter.f();
+		//ClientDemeter.f();
+		//ClientMakeCar.f();
+		ClientCarBuilder.f();
 	}
 }
