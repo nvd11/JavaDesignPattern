@@ -3,7 +3,7 @@
   associations="true" dependencies="true" nesting-relationships="true">  
   <class id="1" language="java" name="builder.CarDirector" project="JavaDesignPattern" 
     file="/JavaDesignPattern/src/builder/CarDirector.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="79" width="153" x="70" y="125"/>    
+    <position height="-1" width="-1" x="145" y="248"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
@@ -12,17 +12,64 @@
   </class>  
   <class id="2" language="java" name="builder.CarBuilder" project="JavaDesignPattern" 
     file="/JavaDesignPattern/src/builder/CarBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="169" width="148" x="352" y="13"/>    
+    <position height="-1" width="-1" x="439" y="243"/>    
     <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="false" package="false" protected="false" private="false" static="false"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <dependency id="3">    
+  <class id="3" language="java" name="builder.FortCarBuilder" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/builder/FortCarBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="384" y="560"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="builder.BenzCarBuilder" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/builder/BenzCarBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="538" y="560"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="builder.CarProduct" project="JavaDesignPattern" 
+    file="/JavaDesignPattern/src/builder/CarProduct.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="830" y="563"/>    
+    <display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="false" package="false" protected="false" private="false" static="false"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="6">    
     <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="2"/>  
   </dependency>  
+  <dependency id="7">    
+    <bendpoint x="633" y="709"/>    
+    <bendpoint x="700" y="710"/>    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="8">    
+    <bendpoint x="546" y="728"/>    
+    <bendpoint x="821" y="733"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="false" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="false" package="false" protected="false" private="false" static="false"/>    

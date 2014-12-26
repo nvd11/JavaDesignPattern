@@ -4,11 +4,9 @@ diagrams
     877 544 100 4 0 0
 end
 show_stereotypes
-selected attribute_ref 128130 // f
+selected class_ref 128130 // Fox
 open
   class_ref 128002 // Hitable
-  class_ref 128130 // Fox
-  class_ref 128258 // Dog
-  class_ref 128386 // ProxyBear
+  deploymentview_ref 134530 // 01
 end
 end

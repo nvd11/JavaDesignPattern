@@ -1,0 +1,14 @@
+window_sizes 1440 874 337 1097 680 120
+diagrams
+  classdiagram_ref 128130 // 01
+    877 544 100 4 0 0
+  active  classdiagram_ref 128258 // 02
+    877 544 100 4 0 0
+end
+show_stereotypes
+selected classdiagram_ref 128258 // 02
+open
+  class_ref 128130 // AirEx
+  class_ref 128386 // TrainEx
+end
+end

@@ -1,0 +1,12 @@
+window_sizes 1287 781 337 944 587 120
+diagrams
+  active  classdiagram_ref 128002 // 01
+    877 544 100 4 0 0
+end
+show_stereotypes
+selected classview_ref 128002 // 01
+open
+  class_ref 128002 // Cloneable
+  class_ref 128258 // Order
+end
+end
