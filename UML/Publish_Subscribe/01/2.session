@@ -1,11 +1,15 @@
-window_sizes 1287 750 337 944 556 120
+window_sizes 1440 874 337 1097 680 120
 diagrams
   active  classdiagram_ref 128130 // 01
-    835 536 100 4 0 0
+    1052 646 100 4 0 0
 end
 show_stereotypes
-selected class_ref 128130 // 01
+selected operation_ref 129666 // GetState
 open
-  class_ref 128130 // 01
+  class_ref 128130 // Observer
+  class_ref 134786 // ConcreteObserver2
+  class_ref 134914 // ConcreteObserver1
+  class_ref 135042 // Subject
+  class_ref 135170 // ConcreteSubject
 end
 end

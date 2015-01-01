@@ -14,6 +14,8 @@ import templateMethod.ClientTemplateMethod;
 import lawOfDemeter.ClientDemeter;
 import builder.templateMethod.*;
 import builder.*;
+import observer.ClientObserver;
+import eventDelegate.*;
 
 public class Enter1 {
 	public static void main(String args[]){
@@ -29,6 +31,8 @@ public class Enter1 {
 		//ClientTemplateMethod.f();
 		//ClientDemeter.f();
 		//ClientMakeCar.f();
-		ClientCarBuilder.f();
+		//ClientCarBuilder.f();
+		//ClientObserver.f();
+		FormTest2.main(args);
 	}
 }

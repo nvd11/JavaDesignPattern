@@ -1,11 +1,13 @@
-window_sizes 1287 750 337 944 556 120
+window_sizes 1287 741 337 944 547 120
 diagrams
   active  classdiagram_ref 134530 // 01
     755 444 100 4 0 0
 end
 show_stereotypes
-selected class_ref 134914 // OperatioinContext
+selected deploymentview_ref 134530 // 01
 open
+  class_ref 134530 // Operation
   class_ref 134914 // OperatioinContext
+  deploymentview_ref 134530 // 01
 end
 end
