@@ -16,6 +16,7 @@ import builder.templateMethod.*;
 import builder.*;
 import observer.ClientObserver;
 import eventDelegate.*;
+import callBack.ClientCallback;
 
 public class Enter1 {
 	public static void main(String args[]){
@@ -33,6 +34,7 @@ public class Enter1 {
 		//ClientMakeCar.f();
 		//ClientCarBuilder.f();
 		//ClientObserver.f();
-		FormTest2.main(args);
+		//FormTest2.main(args);
+		ClientCallback.f();
 	}
 }

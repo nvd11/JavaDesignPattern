@@ -53,7 +53,7 @@ public class FormTest2 {
 		btnNewButton.addSelectionListener(new SelectionAdapter() {
 			@Override
 			public void widgetSelected(SelectionEvent e) {
-				System.out.println("11");
+				System.out.println("hello world");
 			}
 		});
 		btnNewButton.setBounds(85, 102, 76, 27);
