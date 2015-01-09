@@ -19,6 +19,8 @@ import eventDelegate.*;
 import callBack.ClientCallback;
 import test.*;
 import eventDelegate.test.*;
+import xmlrw.*;
+import xmlrw.test.*;
 
 public class Enter1 {
 	public static void main(String args[]){
@@ -39,6 +41,10 @@ public class Enter1 {
 		//FormTest1.main(args);
 		//ClientCallback.f();
 		//Test1.f();
-		ClientSAB.f();
+		//ClientSAB.f();
+		//Testxml2.Create();
+		//Testxml3.Create();
+		//ClientXml1.f();
+		ClientXml2.f();
 	}
 }
