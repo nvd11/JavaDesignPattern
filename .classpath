@@ -15,5 +15,7 @@
 	<classpathentry kind="lib" path="/home/gateman/Programs/eclipse/plugins/com.ibm.icu_50.1.1.v201304230130.jar" sourcepath="/home/gateman/Programs/eclipse/plugins/com.ibm.icu_50.1.1.v201304230130.jar"/>
 	<classpathentry kind="lib" path="/home/gateman/Programs/eclipse/plugins/org.eclipse.ui.forms_3.6.1.v20130822-1117.jar" sourcepath="/home/gateman/Programs/eclipse/plugins/org.eclipse.ui.forms_3.6.1.v20130822-1117.jar"/>
 	<classpathentry kind="lib" path="/home/gateman/Programs/eclipse/plugins/jdom-2.0.5.jar" sourcepath="/home/gateman/Programs/eclipse/plugins/jdom-2.0.5.jar"/>
+	<classpathentry kind="lib" path="/home/gateman/Programs/eclipse/plugins/sqljdbc4.jar" sourcepath="/home/gateman/Programs/eclipse/plugins/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="/home/gateman/Programs/sqldeveloper/jdbc/lib/ojdbc6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

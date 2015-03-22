@@ -18,9 +18,11 @@ import observer.ClientObserver;
 import eventDelegate.*;
 import callBack.ClientCallback;
 import test.*;
+import test.sqlServer.*;
 import eventDelegate.test.*;
 import xmlrw.*;
 import xmlrw.test.*;
+import abstractFactory.test1.*;
 
 public class Enter1 {
 	public static void main(String args[]){
@@ -45,6 +47,8 @@ public class Enter1 {
 		//Testxml2.Create();
 		//Testxml3.Create();
 		//ClientXml1.f();
-		ClientXml2.f();
+		//ClientXml2.f();
+		DBConnection.g();
+		//new MsSqlConn().getConn();
 	}
 }
