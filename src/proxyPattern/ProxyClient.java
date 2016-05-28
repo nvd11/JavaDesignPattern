@@ -30,15 +30,18 @@ public class ProxyClient {
 	
 	public static void h(){
 		StudentMonitor sm = new StudentMonitor();
+		
+		//must be translated to a interface object of the class, cannot be translate to a class object
 		Studyable st = (Studyable)sm.bind(new Student("Mike", 59));
-		st.beInSchool();
+		st.study();
+		st.exam();
+		st.graduate();
 		
 		Studyable st2 = (Studyable)sm.bind(new Student("bill", 61));
-		st2.beInSchool();
+		st2.study();
+		st2.exam();
+		st2.graduate();
 		
-		Studyable st3 = (Studyable)sm.bind(new Student("Cici", 59));
-		st3.study();
-		st3.exam();
-		st3.graduate();
+		
 	}
 }

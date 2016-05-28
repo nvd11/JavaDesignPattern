@@ -31,12 +31,4 @@ public class Student implements Studyable {
 	public void graduate() {
 		System.out.println(this + " graduated");
 	}
-
-	@Override
-	public void beInSchool() {
-		this.study();
-		this.exam();
-		this.graduate();
-	}
-	
 }
