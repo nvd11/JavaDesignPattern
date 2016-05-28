@@ -16,5 +16,4 @@ public class Fox implements Hitable<Dog> {
 	private void uppercut(Dog g){
 		System.out.println("give " + g.getName() + " a Uppercute!");
 	}
-	
 }

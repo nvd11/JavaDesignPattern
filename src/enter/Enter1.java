@@ -31,6 +31,7 @@ public class Enter1 {
 		//Client1.hunterHuntRabbit();
 		//HuntClient.f();
 		//ProxyClient.f();
+		ProxyClient.h();
 		//FactoryClient11.f();
 		//ClientWithOutClone.f();
 		//ClientProtoTypeClone.f();
@@ -48,7 +49,7 @@ public class Enter1 {
 		//Testxml3.Create();
 		//ClientXml1.f();
 		//ClientXml2.f();
-		DBConnection.g();
+		//DBConnection.g();
 		//new MsSqlConn().getConn();
 	}
 }

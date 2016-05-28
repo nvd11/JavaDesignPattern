@@ -1,7 +1,7 @@
 package proxyPattern;
 
 public class ProxyBear implements Hitable<Dog>{
-	private Fox f = null;
+	private Hitable<Dog> f = null;
 	public ProxyBear(){
 		if (null == f){
 			f = new Fox();
@@ -11,8 +11,9 @@ public class ProxyBear implements Hitable<Dog>{
 	@Override
 	public void hit(Dog g){
 		if (null != f){
+			System.out.println("Bear hit InterDogChicke!");
 			f.hit(g);
+			System.out.println("Bear bite InterDogChicke!");
 		}
 	}
-	
 }
